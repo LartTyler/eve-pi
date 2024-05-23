@@ -1,0 +1,673 @@
+aqueous_liquids:
+    label: Aqueous Liquids
+    tier: r0
+
+autotrophs:
+    label: Autotrophs
+    tier: r0
+
+base_metals:
+    label: Base Metals
+    tier: r0
+
+carbon_compounds:
+    label: Carbon Compounds
+    tier: r0
+
+complex_organisms:
+    label: Complex Organisms
+    tier: r0
+
+felsic_magma:
+    label: Felsic Magma
+    tier: r0
+
+heavy_metals:
+    label: Heavy Metals
+    tier: r0
+
+ionic_solutions:
+    label: Ionic Solutions
+    tier: r0
+
+microorganisms:
+    label: Microorganisms
+    tier: r0
+
+noble_gas:
+    label: Noble Gas
+    tier: r0
+
+noble_metals:
+    label: Noble Metals
+    tier: r0
+
+non_cs_crystals:
+    label: Non-CS Crystals
+    tier: r0
+
+planktic_colonies:
+    label: Planktic Colonies
+    tier: r0
+
+reactive_gas:
+    label: Reactive Gas
+    tier: r0
+
+suspended_plasma:
+    label: Suspended Plasma
+    tier: r0
+
+water:
+    label: Water
+    tier: p1
+    is_p4_input: true
+    production:
+        quantity: 20
+        inputs:
+            aqueous_liquids: 3000
+
+industrial_fibers:
+    label: Industrial Fibers
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            autotrophs: 3000
+
+reactive_metals:
+    label: Reactive Metals
+    tier: p1
+    is_p4_input: true
+    production:
+        quantity: 20
+        inputs:
+            base_metals: 3000
+
+biofuels:
+    label: Biofuels
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            carbon_compounds: 3000
+
+proteins:
+    label: Proteins
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            complex_organisms: 3000
+
+silicon:
+    label: Silicon
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            felsic_magma: 3000
+
+toxic_metals:
+    label: Toxic Metals
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            heavy_metals: 3000
+
+electrolytes:
+    label: Electrolytes
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            ionic_solutions: 3000
+
+bacteria:
+    label: Bacteria
+    tier: p1
+    is_p4_input: true
+    production:
+        quantity: 20
+        inputs:
+            microorganisms: 3000
+
+oxygen:
+    label: Oxygen
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            noble_gas: 3000
+
+precious_metals:
+    label: Precious Metals
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            noble_metals: 3000
+
+chiral_structures:
+    label: Chiral Structures
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            non_cs_crystals: 3000
+
+biomass:
+    label: Biomass
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            planktic_colonies: 3000
+
+oxidizing_compound:
+    label: Oxidizing Compound
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            reactive_gas: 3000
+
+plasmoids:
+    label: Plasmoids
+    tier: p1
+    production:
+        quantity: 20
+        inputs:
+            suspended_plasma: 3000
+
+biocells:
+    label: Biocells
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            biofuels: 40
+            precious_metals: 40
+
+construction_blocks:
+    label: Construction Blocks
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            reactive_metals: 40
+            toxic_metals: 40
+
+consumer_electronics:
+    label: Consumer Electronics
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            toxic_metals: 40
+            chiral_structures: 40
+
+coolant:
+    label: Coolant
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            electrolytes: 40
+            water: 40
+
+enriched_uranium:
+    label: Enriched Uranium
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            precious_metals: 40
+            toxic_metals: 40
+
+fertilizer:
+    label: Fertilizer
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            bacteria: 40
+            proteins: 40
+
+gen_enhanced_livestock:
+    label: Gen. Enhanced Livestock
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            proteins: 40
+            biomass: 40
+
+livestock:
+    label: Livestock
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            proteins: 40
+            biofuels: 40
+
+mechanical_parts:
+    label: Mechanical Parts
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            reactive_metals: 40
+            precious_metals: 40
+
+microfiber_shielding:
+    label: Microfiber Shielding
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            industrial_fibers: 40
+            silicon: 40
+
+miniature_electronics:
+    label: Miniature Electronics
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            chiral_structures: 40
+            silicon: 40
+
+nanites:
+    label: Nanites
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            bacteria: 40
+            reactive_metals: 40
+
+oxides:
+    label: Oxides
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            oxidizing_compound: 40
+            oxygen: 40
+
+polyaramids:
+    label: Polyaramids
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            oxidizing_compound: 40
+            industrial_fibers: 40
+
+polytextiles:
+    label: Polytextiles
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            biofuels: 40
+            industrial_fibers: 40
+
+rocket_fuel:
+    label: Rocket Fuel
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            plasmoids: 40
+            electrolytes: 40
+
+silicate_glass:
+    label: Silicate Glass
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            oxidizing_compound: 40
+            silicon: 40
+
+superconductors:
+    label: Superconductors
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            plasmoids: 40
+            water: 40
+
+supertensile_plastics:
+    label: Supertensile Plastics
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            oxygen: 40
+            biomass: 40
+
+synthetic_oil:
+    label: Synthetic Oil
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            electrolytes: 40
+            oxygen: 40
+
+test_cultures:
+    label: Test Cultures
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            bacteria: 40
+            water: 40
+
+transmitter:
+    label: Transmitter
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            plasmoids: 40
+            chiral_structures: 40
+
+viral_agent:
+    label: Viral Agent
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            bacteria: 40
+            biomass: 40
+
+water_cooled_cpu:
+    label: Water-Cooled CPU
+    tier: p2
+    production:
+        quantity: 5
+        inputs:
+            reactive_metals: 40
+            water: 40
+
+biotech_research_reports:
+    label: Biotech Research Reports
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            nanites: 10
+            livestock: 10
+            construction_blocks: 10
+
+camera_drones:
+    label: Camera Drones
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            silicate_glass: 10
+            rocket_fuel: 10
+
+condensates:
+    label: Condensates
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            oxides: 10
+            coolant: 10
+
+cryoprotectant_solution:
+    label: Cryoprotectant Solution
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            test_cultures: 10
+            synthetic_oil: 10
+            fertilizer: 10
+
+data_chips:
+    label: Data Chips
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            supertensile_plastics: 10
+            microfiber_shielding: 10
+
+gel_matrix_biopaste:
+    label: Gel-Matrix Biopaste
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            biocells: 10
+            oxides: 10
+            superconductors: 10
+
+guidance_systems:
+    label: Guidance Systems
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            water_cooled_cpu: 10
+            transmitter: 10
+
+hazmat_detection_systems:
+    label: Hazmat Detection Systems
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            polytextiles: 10
+            viral_agent: 10
+            transmitter: 10
+
+hermetic_membranes:
+    label: Hermetic Membranes
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            polyaramids: 10
+            gen_enhanced_livestock: 10
+
+high_tech_transmitters:
+    label: High-Tech Transmitters
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            polyaramids: 10
+            transmitter: 10
+
+industrial_explosives:
+    label: Industrial Explosives
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            fertilizer: 10
+            polytextiles: 10
+
+neocoms:
+    label: Neocoms
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            biocells: 10
+            silicate_glass: 10
+
+nuclear_reactors:
+    label: Nuclear Reactors
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            microfiber_shielding: 10
+            enriched_uranium: 10
+
+planetary_vehicles:
+    label: Planetary Vehicles
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            supertensile_plastics: 10
+            mechanical_parts: 10
+            miniature_electronics: 10
+
+robotics:
+    label: Robotics
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            mechanical_parts: 10
+            consumer_electronics: 10
+
+smartfab_units:
+    label: Smartfab Units
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            construction_blocks: 10
+            miniature_electronics: 10
+
+supercomputers:
+    label: Supercomputers
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            water_cooled_cpu: 10
+            coolant: 10
+            consumer_electronics: 10
+
+synthetic_synapses:
+    label: Synthetic Synapses
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            supertensile_plastics: 10
+            test_cultures: 10
+
+transcranial_microcontrollers:
+    label: Transcranial Microcontrollers
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            biocells: 10
+            nanites: 10
+
+ukomi_super_conductors:
+    label: Ukomi Super Conductors
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            synthetic_oil: 10
+            superconductors: 10
+
+vaccines:
+    label: Vaccines
+    tier: p3
+    production:
+        quantity: 3
+        inputs:
+            livestock: 10
+            viral_agent: 10
+
+broadcast_node:
+    label: Broadcast Node
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            neocoms: 6
+            data_chips: 6
+            high_tech_transmitters: 6
+
+integrity_response_drones:
+    label: Integrity Response Drones
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            gel_matrix_biopaste: 6
+            hazmat_detection_systems: 6
+            planetary_vehicles: 6
+
+nano_factory:
+    label: Nano-Factory
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            industrial_explosives: 6
+            ukomi_super_conductors: 6
+            reactive_metals: 40
+
+organic_mortar_applicators:
+    label: Organic Mortar Applicators
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            condensates: 6
+            robotics: 6
+            bacteria: 40
+
+recursive_computing_module:
+    label: Recursive Computing Module
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            synthetic_synapses: 6
+            guidance_systems: 6
+            transcranial_microcontrollers: 6
+
+self_harmonizing_power_core:
+    label: Self-Harmonizing Power Core
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            camera_drones: 6
+            nuclear_reactors: 6
+            hermetic_membranes: 6
+
+sterile_conduits:
+    label: Sterile Conduits
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            smartfab_units: 6
+            vaccines: 6
+            water: 40
+
+wetware_mainframe:
+    label: Wetware Mainframe
+    tier: p4
+    production:
+        quantity: 1
+        inputs:
+            supercomputers: 6
+            biotech_research_reports: 6
+            cryoprotectant_solution: 6

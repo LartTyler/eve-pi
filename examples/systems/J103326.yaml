@@ -1,0 +1,101 @@
+label: J103326
+planets:
+    -
+        label: J103326 I
+        type_label: Lava
+        owned: false
+        tax_rate: 0.10
+        resources:
+            base_metals: 0.31
+            felsic_magma: 0.45
+            heavy_metals: 0.88
+            non_cs_crystals: 0.78
+            suspended_plasma: 0.40
+    -
+        label: J103326 II
+        type_label: Barren
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.36
+            base_metals: 0.66
+            carbon_compounds: 0.76
+            microorganisms: 0.67
+            noble_metals: 0.46
+    -
+        label: J103326 III
+        type_label: Temperate
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.59
+            autotrophs: 0.72
+            carbon_compounds: 0.83
+            complex_organisms: 0.41
+            microorganisms: 0.58
+    -
+        label: J103326 IV
+        type_label: Barren
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.39
+            base_metals: 0.63
+            carbon_compounds: 0.68
+            microorganisms: 0.67
+            noble_metals: 0.42
+    -
+        label: J103326 V
+        type_label: Oceanic
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 1.00
+            carbon_compounds: 0.48
+            complex_organisms: 0.67
+            microorganisms: 0.80
+            planktic_colonies: 0.66
+    -
+        label: J103326 VI
+        type_label: Temperate
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.80
+            autotrophs: 0.68
+            carbon_compounds: 0.75
+            complex_organisms: 0.35
+            microorganisms: 0.48
+    -
+        label: J103326 VII
+        type_label: Barren
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.35
+            base_metals: 0.64
+            carbon_compounds: 0.73
+            microorganisms: 0.70
+            noble_metals: 0.38
+    -
+        label: J103326 VIII
+        type_label: Gas
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.55
+            base_metals: 0.61
+            ionic_solutions: 0.59
+            noble_gas: 0.83
+            reactive_gas: 0.40
+    -
+        label: J103326 IX
+        type_label: Barren
+        owned: false
+        tax_rate: 0.10
+        resources:
+            aqueous_liquids: 0.33
+            base_metals: 0.71
+            carbon_compounds: 0.80
+            microorganisms: 0.64
+            noble_metals: 0.58
